@@ -25,6 +25,14 @@
   .card-body .card-text {
     color: white; }
 
+/*aqui ba la barra de paso de los html de contenido*/
+.pagination {
+  margin-left: 35rem; }
+  .pagination a {
+    color: white; }
+  .pagination .page-link {
+    background-color: black; }
+
 /*NAVBAR*/
 nav {
   background-color: black; }
