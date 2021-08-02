@@ -33,6 +33,13 @@
   .pagination .page-link {
     background-color: black; }
 
+.extra {
+  background-color: black;
+  border: white solid; }
+  .extra a {
+    background-color: black;
+    color: white; }
+
 /*NAVBAR*/
 nav {
   background-color: black; }
