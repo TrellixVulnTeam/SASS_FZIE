@@ -27,18 +27,26 @@
 
 /*aqui ba la barra de paso de los html de contenido*/
 .pagination {
-  margin-left: 35rem; }
+  margin-left: 35vw; }
   .pagination a {
     color: white; }
   .pagination .page-link {
     background-color: black; }
 
+/*AQUI SE ENCUNETRAN LOS ESTILOS DE LA BARRA LATERAL DE LOS CATALOGOS*/
 .extra {
   background-color: black;
   border: white solid; }
   .extra a {
     background-color: black;
     color: white; }
+
+/*AQUI VA LOS ESTILOS DEL FORMULARIO DE CONTACTO*/
+.formulario {
+  color: white; }
+
+#one {
+  color: white; }
 
 /*NAVBAR*/
 nav {
@@ -68,6 +76,7 @@ body {
     margin-top: 5rem; }
 
 /*AQUI VA EL FOOTER*/
+/* Credit to https://epicbootstrap.com/snippets/footer-basic */
 footer {
   background-color: black; }
   footer img {
