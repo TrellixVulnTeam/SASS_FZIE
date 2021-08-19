@@ -1,6 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+   }
+
 /*CARRUSEL INDEX*/
 .carrusel{
     margin-top: 3rem;
+    
     p{
         color: rgb(252, 250, 250);
         font-family: 'Otomanopee One', sans-serif;
@@ -10,7 +16,7 @@
         margin-top: 3rem;
     }
     .boton{
-        margin-left: 12rem;
+        margin-left: 10vw;
     }
     button{
         background-color: #000000;
@@ -26,7 +32,6 @@
    
     .card-title{
         color: white;
-       
     }
     .card-text{
         color: white;
@@ -34,7 +39,7 @@
 }
 /*aqui ba la barra de paso de los html de contenido*/
 .pagination{
-   margin-left: 35vw;
+   margin-left: 40vw;
    a{
      color: white;
    }

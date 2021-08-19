@@ -1,4 +1,12 @@
 @charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
 /*CARRUSEL INDEX*/
 .carrusel {
   margin-top: 3rem; }
@@ -10,7 +18,7 @@
     text-align: center;
     margin-top: 3rem; }
   .carrusel .boton {
-    margin-left: 12rem; }
+    margin-left: 10vw; }
   .carrusel button {
     background-color: #000000;
     background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
@@ -27,7 +35,7 @@
 
 /*aqui ba la barra de paso de los html de contenido*/
 .pagination {
-  margin-left: 35vw; }
+  margin-left: 40vw; }
   .pagination a {
     color: white; }
   .pagination .page-link {
@@ -56,8 +64,13 @@ nav {
 
 body {
   background-image: url(../imagenes/fondo.png);
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center; }
+  background-position: center;
+  position: relative;
+  min-height: 100vh;
+  margin: 0;
+  z-index: unset; }
   body h1 {
     color: white;
     font-family: 'Otomanopee One', sans-serif;
@@ -66,49 +79,50 @@ body {
     color: white; }
   body .nosotros {
     color: white;
-    text-align: center; }
+    text-align: center;
+    font-size: 3vw; }
   body .marcas {
     background-color: black; }
   body .trabajar {
     color: white;
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 4.5vw;
     margin-top: 5rem; }
+  body .principal {
+    font-size: 3.5vw; }
 
 /*AQUI VA EL FOOTER*/
 /* Credit to https://epicbootstrap.com/snippets/footer-basic */
 footer {
-  background-color: black; }
+  background-color: black;
+  bottom: 0;
+  top: 1000px;
+  position: sticky;
+  width: 100%;
+  padding: 0; }
   footer img {
     border-radius: 50%; }
-
-.header-font {
-  font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
-  color: #fd1506; }
-
-.fa-facebook {
-  color: #3b5998; }
-
-.fa-linkedin {
-  color: #0077B5; }
-
-.fa-twitter {
-  color: #4099FF; }
-
-.fa-google {
-  color: #d34836; }
-
-.bg-primary {
-  background-color: #000 !important; }
-
-.bg-circle {
-  display: inline-block;
-  width: 60px;
-  height: 60px;
-  padding: 14px 4px;
-  color: #ececec;
-  text-align: center;
-  border-radius: 50%; }
+  footer .header-font {
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #fd1506; }
+  footer .fa-facebook {
+    color: #3b5998; }
+  footer .fa-linkedin {
+    color: #0077B5; }
+  footer .fa-twitter {
+    color: #4099FF; }
+  footer .fa-google {
+    color: #d34836; }
+  footer .bg-primary {
+    background-color: #000 !important; }
+  footer .bg-circle {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    padding: 14px 4px;
+    color: #ececec;
+    text-align: center;
+    border-radius: 50%; }
 
 .bg-circle-outline {
   width: 50px;
@@ -128,15 +142,6 @@ footer {
   text-decoration: none !important;
   outline: none;
   color: #ececec; }
-
-.footer {
-  background: #EDEFF1;
-  height: auto;
-  padding-bottom: 30px;
-  position: relative;
-  width: 100%;
-  border-bottom: 1px solid #CCCCCC;
-  border-top: 1px solid #DDDDDD; }
 
 .footer p {
   margin: 0; }

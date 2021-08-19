@@ -1,6 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+
 //aqui esta el SASS
 @import"bootstrap";
 /*NAVBAR*/
+
+
 nav{
    background-color: black;
    img{
@@ -8,11 +15,17 @@ nav{
     border-radius: 50%;
    }
 }
+
 //body
 body{
     background-image:url(../imagenes/fondo.png);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position:center;
+    position:relative;
+    min-height: 100vh;
+    margin: 0;
+    z-index:unset;
     h1{
         color: white;
         font-family: 'Otomanopee One', sans-serif;
@@ -24,6 +37,7 @@ body{
     .nosotros{
         color: white;
         text-align: center;
+        font-size: 3vw;
         }
     .marcas{
         background-color: black;
@@ -32,8 +46,11 @@ body{
     .trabajar{
         color:white;
         text-align: center;
-        font-size: 3.5rem;
+        font-size: 4.5vw;
         margin-top: 5rem;
+    }
+    .principal{
+        font-size: 3.5vw;
     }
 }
 /*AQUI VA EL FOOTER*/
@@ -42,41 +59,48 @@ body{
   /* Credit to https://epicbootstrap.com/snippets/footer-basic */
 footer{
     background-color: black;
+        bottom: 0;
+        top: 1000px;
+       position:sticky;
+        width: 100%;
+        padding:0;
+    
     img{
         border-radius: 50%;
     }
+    .header-font {
+        font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+        color: #fd1506;
+      }
+      .fa-facebook{
+          color:#3b5998;
+      }
+      .fa-linkedin{
+          color:#0077B5;
+      }
+      .fa-twitter{
+          color:#4099FF;
+      }
+      .fa-google{
+          color:#d34836;
+      }
+      .bg-primary {
+       background-color: #000 !important;
+      }
+      
+      .bg-circle
+      {
+        display: inline-block;
+        width: 60px;
+        height: 60px;
+        padding: 14px 4px;
+        color: #ececec;
+        text-align: center;
+        border-radius: 50%;
+      }
 }
     
-.header-font {
-    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #fd1506;
-  }
-  .fa-facebook{
-      color:#3b5998;
-  }
-  .fa-linkedin{
-      color:#0077B5;
-  }
-  .fa-twitter{
-      color:#4099FF;
-  }
-  .fa-google{
-      color:#d34836;
-  }
-  .bg-primary {
-   background-color: #000 !important;
-  }
-  
-  .bg-circle
-  {
-    display: inline-block;
-    width: 60px;
-    height: 60px;
-    padding: 14px 4px;
-    color: #ececec;
-    text-align: center;
-    border-radius: 50%;
-  }
+
   
   .bg-circle-outline
   {
@@ -102,15 +126,7 @@ footer{
     outline: none;
     color: #ececec;
   }
-  .footer {
-      background: #EDEFF1;
-      height: auto;
-      padding-bottom: 30px;
-      position: relative;
-      width: 100%;
-      border-bottom: 1px solid #CCCCCC;
-      border-top: 1px solid #DDDDDD;
-  }
+ 
   .footer p {
       margin: 0;
   }
