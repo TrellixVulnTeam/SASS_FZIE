@@ -7,9 +7,12 @@
 @import"bootstrap";
 /*NAVBAR*/
 
-
 nav{
    background-color: black;
+   li:hover{
+    background-color: #537895;
+    background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
+   }
    img{
 
     border-radius: 50%;
@@ -43,14 +46,34 @@ body{
         background-color: black;
        
     }
-    .trabajar{
-        color:white;
+    /*AQUI ESTA UNA ANIMACIÓN QUE LE PUSE AL HTML "NOSOTROS"*/
+    .contenedors{
+       height: 6vw;
+        width: 100%;
+        color: white;
+        font-size:5vw;
+        overflow: hidden;
+        margin-bottom: 6vw;
         text-align: center;
-        font-size: 4.5vw;
-        margin-top: 5rem;
+        left: 0.5rem;
+        margin-top: 6vw;
+        ul{
+            list-style: none;
+            animation: cambiar 6s infinite;
+            padding:0;
+        }
+    }
+    @keyframes cambiar  {
+        0%{margin-top: 0;}
+        20%{margin-top: 0;}
+        25%{margin-top:-8vw;}
+        50%{margin-top: -8vw;}
+        55%{margin-top: -16vw;}
+        80%{margin-top: -16vw;}
     }
     .principal{
         font-size: 3.5vw;
+        
     }
 }
 /*AQUI VA EL FOOTER*/
