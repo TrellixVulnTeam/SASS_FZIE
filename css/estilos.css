@@ -17,21 +17,25 @@
     font-size: 2.5rem;
     text-align: center;
     margin-top: 3rem; }
-  .carrusel .boton {
-    margin-left: 10vw; }
   .carrusel button {
-    background-color: #000000;
-    background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+    margin-left: 15vw;
+    background-color: #537895;
+    background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
     color: white;
-    font-size: 1.5rem; }
+    font-size: 2.5vw; }
 
 /*CARDS catálogo*/
 .card-body {
   background-color: black; }
   .card-body .card-title {
-    color: white; }
+    color: white;
+    font-family: 'Pangolin', cursive; }
   .card-body .card-text {
-    color: white; }
+    color: white;
+    font-family: 'Pangolin', cursive; }
+  .card-body a {
+    background-color: #537895;
+    background-image: linear-gradient(315deg, #537895 0%, #09203f 74%); }
 
 /*aqui ba la barra de paso de los html de contenido*/
 .pagination {
@@ -40,13 +44,23 @@
     color: white; }
   .pagination .page-link {
     background-color: black; }
+  .pagination .page-link:hover {
+    background-color: #537895;
+    background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
+    color: white; }
 
 /*AQUI SE ENCUNETRAN LOS ESTILOS DE LA BARRA LATERAL DE LOS CATALOGOS*/
 .extra {
   background-color: black;
-  border: white solid; }
+  border: white solid;
+  font-family: 'Pangolin', cursive;
+  font-size: 1.6rem; }
   .extra a {
     background-color: black;
+    color: white; }
+  .extra a:hover {
+    background-color: #537895;
+    background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
     color: white; }
 
 /*AQUI VA LOS ESTILOS DEL FORMULARIO DE CONTACTO*/
@@ -83,7 +97,9 @@ body {
     font-family: 'Rampart One', cursive;
     text-align: center; }
   body h4 {
-    color: white; }
+    color: white;
+    font-family: 'Pangolin', cursive;
+    text-align: center; }
   body .nosotros {
     color: white;
     text-align: center;
@@ -124,10 +140,10 @@ body {
   80% {
     margin-top: -16vw; } }
   body .principal {
-    font-size: 3.5vw;
+    font-size: 4vw;
     color: white;
     text-align: center;
-    font-family: 'Chakra Petch', sans-serif; }
+    font-family: 'Pangolin', cursive; }
 
 /*AQUI VA EL FOOTER*/
 /* Credit to https://epicbootstrap.com/snippets/footer-basic */

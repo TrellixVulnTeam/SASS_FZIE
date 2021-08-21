@@ -15,26 +15,30 @@
         text-align: center;
         margin-top: 3rem;
     }
-    .boton{
-        margin-left: 10vw;
-    }
+  
     button{
-        background-color: #000000;
-    background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+        margin-left: 15vw;
+        background-color: #537895;
+        background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
         color: white;
-        font-size: 1.5rem;
+        font-size: 2.5vw;
     }
 }
 /*CARDS catálogo*/
 
 .card-body{
     background-color: black;
-   
     .card-title{
         color: white;
+        font-family: 'Pangolin', cursive;
     }
     .card-text{
         color: white;
+        font-family: 'Pangolin', cursive;
+    }
+    a{
+        background-color: #537895;
+        background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
     }
 }
 /*aqui ba la barra de paso de los html de contenido*/
@@ -46,14 +50,26 @@
    .page-link{
        background-color: black;
    }
+   .page-link:hover{
+    background-color: #537895;
+    background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
+    color: white;
+   }
 }
 
 /*AQUI SE ENCUNETRAN LOS ESTILOS DE LA BARRA LATERAL DE LOS CATALOGOS*/
 .extra{
     background-color: black;
     border: white solid;
+    font-family: 'Pangolin', cursive;
+    font-size: 1.6rem;
     a{
         background-color: black;
+        color: white;
+    }
+    a:hover{
+        background-color: #537895;
+        background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
         color: white;
     }
 }
