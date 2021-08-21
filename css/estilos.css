@@ -74,10 +74,13 @@ body {
   min-height: 100vh;
   margin: 0;
   z-index: unset;
-  /*AQUI ESTA UNA ANIMACIÓN QUE LE PUSE AL HTML "NOSOTROS"*/ }
+  /*AQUI ESTA UNA ANIMACIÓN QUE LE PUSE AL HTML "NOSOTROS"*/
+  /*AQUI VAN LOS EFECTOS DEL TEXTO DEL INDEX*/ }
   body h1 {
     color: white;
-    font-family: 'Otomanopee One', sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Rampart One', cursive;
     text-align: center; }
   body h4 {
     color: white; }
@@ -96,11 +99,16 @@ body {
     margin-bottom: 6vw;
     text-align: center;
     left: 0.5rem;
-    margin-top: 6vw; }
+    margin-top: 7vw;
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Rampart One', cursive; }
     body .contenedors ul {
       list-style: none;
-      animation: cambiar 6s infinite;
+      animation: cambiar 8s infinite;
       padding: 0; }
+      body .contenedors ul #diferent {
+        font-size: 4vw; }
 
 @keyframes cambiar {
   0% {
@@ -108,15 +116,18 @@ body {
   20% {
     margin-top: 0; }
   25% {
-    margin-top: -8vw; }
+    margin-top: -9vw; }
   50% {
-    margin-top: -8vw; }
+    margin-top: -9vw; }
   55% {
     margin-top: -16vw; }
   80% {
     margin-top: -16vw; } }
   body .principal {
-    font-size: 3.5vw; }
+    font-size: 3.5vw;
+    color: white;
+    text-align: center;
+    font-family: 'Chakra Petch', sans-serif; }
 
 /*AQUI VA EL FOOTER*/
 /* Credit to https://epicbootstrap.com/snippets/footer-basic */

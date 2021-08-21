@@ -5,6 +5,7 @@
 
 //aqui esta el SASS
 @import"bootstrap";
+
 /*NAVBAR*/
 
 nav{
@@ -31,7 +32,9 @@ body{
     z-index:unset;
     h1{
         color: white;
-        font-family: 'Otomanopee One', sans-serif;
+        font-family: 'Chakra Petch', sans-serif;
+        font-family: 'Permanent Marker', cursive;
+        font-family: 'Rampart One', cursive;
         text-align: center;
     }
     h4{
@@ -56,24 +59,35 @@ body{
         margin-bottom: 6vw;
         text-align: center;
         left: 0.5rem;
-        margin-top: 6vw;
+        margin-top: 7vw;
+        font-family: 'Chakra Petch', sans-serif;
+        font-family: 'Permanent Marker', cursive;
+        font-family: 'Rampart One', cursive;
+        
         ul{
             list-style: none;
-            animation: cambiar 6s infinite;
+            animation: cambiar 8s infinite;
             padding:0;
+            #diferent{
+                font-size: 4vw;
+            }
         }
     }
     @keyframes cambiar  {
         0%{margin-top: 0;}
         20%{margin-top: 0;}
-        25%{margin-top:-8vw;}
-        50%{margin-top: -8vw;}
+        25%{margin-top:-9vw;}
+        50%{margin-top: -9vw;}
         55%{margin-top: -16vw;}
         80%{margin-top: -16vw;}
     }
+    /*AQUI VAN LOS EFECTOS DEL TEXTO DEL INDEX*/
     .principal{
+       
         font-size: 3.5vw;
-        
+        color: white;
+        text-align: center;
+        font-family: 'Chakra Petch', sans-serif;
     }
 }
 /*AQUI VA EL FOOTER*/
